@@ -1,0 +1,64 @@
+/* Paste your existing CSS styles here */
+
+/*=============== CALCULATOR ===============*/
+.calculator {
+    background-color: var(--container-color);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.calculator__title {
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin-bottom: 2.5rem;
+}
+
+.service {
+    margin-bottom: 1.5rem;
+}
+
+.service__label {
+    display: block;
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+    margin-bottom: 0.5rem;
+}
+
+.service__input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--text-color-light);
+    border-radius: 0.75rem;
+    background: none;
+    color: var(--text-color);
+    outline: none;
+}
+
+.service__price {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+    margin-top: 0.5rem;
+}
+
+.calculator__total {
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+    margin-top: 2rem;
+}
+
+.calculator__button {
+    background-color: var(--first-color);
+    color: var(--body-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.calculator__button:hover {
+    background-color: var(--first-color-alt);
+}
